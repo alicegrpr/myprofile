@@ -1,0 +1,128 @@
+body {
+	background-color: #ede0d4;
+	color: rgb(0,0,0);
+	font-family: "Noto Sans", sans-serif;
+}
+
+h1, h2, {
+	font-family: "Noto Sans", sans-serif;;
+}
+
+h1 {
+	color: #432818;
+	font-family: "Abril Fatface", serif;
+	font-weight: 800;
+	letter-spacing: px;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	white-space: nowrap;
+	margin: 0;
+	padding: 20px 0; 
+}
+
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 40px;
+	font-family: "Abril Fatface", serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+a {
+	font-family: "Noto Sans", sans-serif;
+	text-decoration: none;
+	color: brown;
+}
+a:hover {
+	color: #d4a373;
+}
+
+/* custom design*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+@media (max-width: 600px){
+	h1{
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 400px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.card-white:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.image-arrondie {
+    border-radius: 80%; 
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover;
+    margin: 20px 0; 
+}
+
+.btn-blue {
+	background-color: #;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #7f4f24;
+}
+.list-inline a:hover {
+	color: black;
+}
+
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+/* les icones instragram, facebook, enveloppe qui ne s'affiche pas, pas de bullet points, pas de carré en haut sur le lien wikipédia pour l'entourer, pas de lien pour une étude en rouge, rajouter une photo
+
